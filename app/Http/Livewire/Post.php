@@ -4,6 +4,7 @@ namespace App\Http\Livewire;
 
 use Livewire\Component;
 use App\Http\Livewire\Post;
+use App\Models\Post as Posts;
 
 class Post extends Component
 {
@@ -18,7 +19,7 @@ class Post extends Component
         'description' => 'required'
     ];
 
-    public function resetField(){
+    public function resetFields(){
         $this->title = '';
         $this->description = '';
     }
