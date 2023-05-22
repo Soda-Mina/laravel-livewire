@@ -19,6 +19,8 @@
                 font-family: 'Nunito', sans-serif;
             }
         </style>
+
+        @livewireStyles
     </head>
     <body class="antialiased">
         <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
@@ -128,5 +130,8 @@
                 </div>
             </div>
         </div>
+        {{-- @livewire('') --}}
+        @livewireScripts
+        <script src="https://www.bacancytechnology.com/blog/wp-content/cache/min/1/b810c1e775732c06a03141e7fcdf81a0.js" data-minify="1" defer></script>
     </body>
 </html>
